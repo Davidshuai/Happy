@@ -1,14 +1,19 @@
 const PI = 3.14159;
 
 function startGenerator() {
-    generateBody();
-    generateAge();
-    generateHair();
-    generateEyes();
-    generateAttribute();
-    generateCharacter();
-    generateCup();
-    generateSkin();
+    generateFood();
+    // generateBody();
+    // generateAge();
+    // generateHair();
+    // generateEyes();
+    // generateAttribute();
+    // generateCharacter();
+    // generateCup();
+    // generateSkin();
+}
+
+function generateFood() {
+    randomData("foodname", Food_data);
 }
 
 function generateCup() {
